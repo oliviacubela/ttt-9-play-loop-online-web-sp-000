@@ -41,6 +41,7 @@ def play(board)
     turn(board)
     counter += 1
   end
+  play(board)
 end
 
 # Define your play method below
